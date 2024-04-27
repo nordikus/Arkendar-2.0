@@ -1,0 +1,107 @@
+#root {
+  min-height: 100vh; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif; }
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("fonts/Montserrat-Regular.ttf") format("truetype"); }
+footer {
+  flex-shrink: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 100%;
+  width: 100%; }
+  footer > div {
+    min-height: 100%;
+    width: 100%; }
+
+main {
+  display: flex;
+  margin: 0 auto;
+  background: no-repeat center;
+  background-size: 100% 100%;
+  min-height: 100vh; }
+
+.homeMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0; }
+
+.title-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 10px;
+  width: 250px;
+  height: 5px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  color: #fff;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white; }
+
+.text-container {
+  margin-top: -20px;
+  position: relative;
+  top: -10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  color: #fff;
+  z-index: 1;
+  border: 2px solid white;
+  text-align: center; }
+
+#orange {
+  background: url("orangeback.png") no-repeat center;
+  background-size: cover; }
+
+#purple {
+  background: url("purpleback.png") no-repeat center;
+  background-size: cover; }
+
+.main-container {
+  position: relative;
+  align-items: center;
+  width: 50%;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  margin-top: 2%; }
+
+@media (max-width: 768px) {
+  .main-container {
+    width: 100%;
+    padding-top: 20px;
+    margin-bottom: 50px; }
+
+  .title-container {
+    height: 2px;
+    margin-bottom: 20px; }
+
+  .text-container {
+    margin-top: 0; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .main-container {
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 30px; }
+
+  .title-container {
+    height: 2px;
+    margin-bottom: 20px; }
+
+  .text-container {
+    margin-top: 0; } }
+
+/*# sourceMappingURL=app.css.map */

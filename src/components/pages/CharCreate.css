@@ -1,0 +1,106 @@
+.CharCreateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 100%;
+    color:white;
+}
+
+.CharCreateContainer .title-container{
+    width: 300px;
+    height: 25px;
+    font-size: medium;
+}
+
+.statsContainer {
+    width: 60%;
+    align-items: flex-start;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    white-space: nowrap;
+}
+
+
+
+.statsContainer div b{
+font-size: x-large;
+}
+
+.param div{
+    margin-top: 40px;
+}
+
+
+.stats button, .resetButton{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.resetButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetButton button{
+    width:50%;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 20px;
+    height:25px;
+    color:white;
+    font-size: large;
+}
+
+
+@media (max-width: 900px) {
+    .slidstatcontain{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .slider{
+        width:100%;
+    }
+    .statsContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+    }
+    .stats{
+        padding-top: 20px;
+    }
+    .statsContainer div b{
+        font-size: small;
+    }
+}
+
+@media ( max-width: 600px) {
+    .statsContainer div b, .resetButton button{
+        font-size: x-small;
+    }
+}
+
+
+.slidstatcontain{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider{
+    width:20%
+}
+
+.statRow{
+    display: flex;
+    justify-Content: space-between;
+    align-Items: center;
+    border-Bottom: 1px solid white;
+}

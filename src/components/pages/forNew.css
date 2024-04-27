@@ -1,0 +1,46 @@
+.image-container {
+    position: absolute;
+    top: -110px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px;
+    width:200px;
+    height:200px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.img-container>img{
+    width:100%;
+    height:100%;
+}
+
+.row-container {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row-container>.main-container{
+    margin-left:10px;
+    margin-right:10px;
+    width:20%
+}
+
+#cubes{
+    width:30%
+}
+
+@media screen and (max-width: 1024px) {
+    .row-container > .main-container,#cubes {
+        margin-top:50px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
