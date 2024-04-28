@@ -6,7 +6,7 @@ import {Home, Rules, ForNew, Worlds, CharCreate} from "./components/pages";
 
 function App() {
     const location = useLocation();
-    const background = location.pathname === "/ForNew" ? "url('ForNew.jpg')" : location.pathname === "/Worlds" ? "url('worlds-banner.jpg')" : location.pathname === "/" ? "url('home-banner.jpg')" : location.pathname === "/Rules" ? "linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('rules-banner.jpg')" : location.pathname === "/CharCreate" ? "url('charCreate.jpg')" : "white";
+    const background = location.pathname === "/ForNew" ? "url('ForNew.jpg')" : location.pathname === "/Worlds" ? "url('worlds-banner.jpg')" : location.pathname === "/" ? "url('home-banner.jpg')" : location.pathname === "" ? "url('home-banner.jpg')" : location.pathname === "/Rules" ? "linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('rules-banner.jpg')" : location.pathname === "/CharCreate" ? "url('charCreate.jpg')" : "white";
     return (<div className="App">
             <header>
                 <Navbar/>
