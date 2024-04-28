@@ -7,7 +7,7 @@ export function Rules() {
 
 
     return (
-        <div className="rulesContainers">
+        <div className="rulesContainers" id='rulesPage'>
             <div className="containersRow">
                 <FightRules/>
                 <CharacteristicsRules/>

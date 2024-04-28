@@ -1,6 +1,8 @@
 
-
-
+#worldsPage {
+    background: url('worlds-banner.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
 
 .circle-container {
     display: flex;

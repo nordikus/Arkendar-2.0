@@ -22,8 +22,6 @@ footer {
 main {
   display: flex;
   margin: 0 auto;
-  background: no-repeat center;
-  background-size: 100% 100%;
   min-height: 100vh; }
 
 .homeMain {

@@ -2,7 +2,7 @@ import React from "react";
 import './worlds.css'
 
 export const Worlds = () => {
-    return <div className="homeMain">
+    return <div className="homeMain" id='worldsPage'>
         <div className="circle-container">
             <div className="main-container">
             <div className="circle" id='bright'>

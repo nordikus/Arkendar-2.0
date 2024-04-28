@@ -6,8 +6,7 @@ import orangeDragon from './orangeDragon.png';
 import greenDragon from './greenDragon.png';
 
 export const ForNew = () => {
-    return <div>
-        <div className="homeMain">
+    return <div className="homeMain" id='forNewPage'>
             <div className="main-container" style={{width: "80%"}}>
                 <div className="title-container" id="orange">
                     <h4>Введение</h4>
@@ -170,5 +169,4 @@ export const ForNew = () => {
                 </div>
             </div>
         </div>
-    </div>
 };

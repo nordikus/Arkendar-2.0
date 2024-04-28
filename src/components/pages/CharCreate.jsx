@@ -55,7 +55,7 @@ export function CharCreate() {
     };
 
     return (
-        <div className="CharCreateContainer">
+        <div className="CharCreateContainer" id="charCreatePage">
             <div className="main-container">
                 <div className='title-container' id="orange">
                     <h3><b>Создание персонажа</b></h3>
