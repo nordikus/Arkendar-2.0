@@ -1,0 +1,19 @@
+.MainNav{
+    background-color: black;
+    z-index:6;
+}
+
+
+
+.MainNav ul li a:not(.active):hover {
+    background:#172554;
+}
+
+.MainNav .active{
+    background-color: #1d4ed8;
+}
+@media (max-width: 768px) {
+    .MainNav ul{
+        background-color: black;
+    }
+}

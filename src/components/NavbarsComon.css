@@ -1,0 +1,160 @@
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index:5;
+}
+
+nav ul {
+    margin:0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+
+nav ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    height: 50px;
+}
+
+nav>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo, .logo-mobile .DefAccImg{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+
+
+.logo-mobile {
+    display: none;
+    justify-content: space-between;
+}
+
+
+
+.menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.DefAccImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.login-section {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    top: 5px;
+}
+
+
+.login-section > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.login-section a {
+    color: white;
+    padding: 0.2rem 0.5rem;
+    text-decoration: none;
+    max-width: 80px;
+    max-height: 20px;
+}
+
+.LogOutbutton {
+        background-color: black;
+        border: none;
+        color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    width: auto;
+}
+
+.LogOutbutton div{
+    width: auto;
+}
+
+
+.LogOutbutton:hover {
+    background-color:#172554;
+}
+
+
+@media (max-width: 1400px) {
+    .login-section {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        top:-5px;
+    }
+.DefAccImg{
+    display: none;
+}
+    .LogOutbutton {
+        height: 15px;
+        width:100%;
+        line-height: 1;
+    }
+    .logo{
+        max-height: 150px;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-mobile {
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        width: 80%;
+    }
+
+    nav ul.open {
+        display: block;
+    }
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 0.5rem;
+        margin: 0 0.5rem;
+        height: 15px;
+    }
+    .LogOutbutton div{
+        width:100%;
+        text-align: left;
+        min-height:15px;
+    }
+}
+

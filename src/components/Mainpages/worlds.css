@@ -1,0 +1,79 @@
+.worldContainer {
+    position: relative;
+    align-items: center;
+    width: 50%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    margin-top: 2%;
+}
+
+
+#worldsPage {
+    background: url('worlds-banner.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-top: 400px;
+
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#bright{
+    background: url('bright.png') no-repeat center;
+}
+
+#dark{
+    background: url('dark.png') no-repeat center;
+}
+
+#space{
+    background: url('spaceopera.png') no-repeat center;
+}
+
+
+
+
+@media (max-width: 769px) {
+    .circle-container {
+        flex-direction: column;
+        padding-top: 200px;
+    }
+    .circle-container .worldContainer{
+        margin-bottom: 200px;
+    }
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .circle-container {
+        flex-direction: column;
+    }
+    .circle-container .worldContainer{
+        margin-bottom: 300px;
+    }
+    .circle {
+        width: 300px;
+        height: 300px;
+    }
+
+
+}

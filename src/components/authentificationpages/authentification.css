@@ -1,0 +1,28 @@
+.form-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+form {
+    border: 2px solid #ccc; /* Цвет и ширина границы */
+    padding: 20px; /* Отступ внутри границы */
+    margin: 20px auto; /* Выравнивание по центру */
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+input {
+    border: 1px solid #ccc; /* Цвет и ширина рамки */
+    padding: 10px; /* Отступ внутри рамки */
+    border-radius: 5px; /* Скругление углов */
+}
+
+label{
+    color:white;
+}
+
+#Authentification{
+    background: url('authentification-banner.png') no-repeat center;
+    background-size: 100% 100%;
+}

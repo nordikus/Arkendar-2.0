@@ -1,9 +1,6 @@
 $font-family: 'Montserrat', sans-serif;
 $font-url: 'fonts/Montserrat-Regular.ttf';
-$box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-$border: 2px solid white;
-$background-color: rgba(0, 0, 0, 0.8);
-$color: #fff;
+
 
 #root{
   min-height:100vh;
@@ -39,97 +36,4 @@ main{
   min-height: 100vh;
 }
 
-.homeMain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-}
 
-.title-container {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  padding: 10px;
-  width:250px;
-  height:5px;
-  border-radius: 40px;
-  box-shadow: $box-shadow;
-  color: $color;
-  z-index: 2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align:center;
-  border: $border;
-}
-
-.text-container {
-  margin-top:-20px;
-  position: relative;
-  top: -10px;
-  background-color: $background-color;
-  border-radius: 10px;
-  box-shadow: $box-shadow;
-  color: $color;
-  z-index: 1;
-  border: $border;
-  text-align:center;
-}
-
-#orange{
-  background: url('orangeback.png') no-repeat center;
-  background-size: cover;
-}
-
-#purple{
-  background: url('purpleback.png') no-repeat center;
-  background-size: cover;
-}
-
-.main-container {
-  position: relative;
-  align-items: center;
-  width: 50%;
-  padding-top: 50px;
-  margin-bottom: 50px;
-  margin-top: 2%;
-}
-
-@media (max-width: 768px) {
-
-  .main-container {
-    width: 100%;
-    padding-top: 20px;
-    margin-bottom: 50px;
-  }
-
-  .title-container {
-    height:2px;
-    margin-bottom:20px;
-  }
-
-  .text-container {
-    margin-top:0;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-
-  .main-container {
-    width: 100%;
-    padding-top: 30px;
-    margin-bottom: 30px;
-  }
-
-  .title-container {
-    height:2px;
-    margin-bottom:20px;
-  }
-
-  .text-container {
-    margin-top:0;
-  }
-}

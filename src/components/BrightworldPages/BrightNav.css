@@ -1,0 +1,19 @@
+.BrightNav{
+    background-color:rgba(202,198,198,0.5);
+}
+
+
+
+.BrightNav ul li a:not(.active):hover {
+    background:#ECEDE5;
+}
+
+.BrightNav .active{
+    background-color:#E7EBD1;
+}
+
+@media (max-width: 768px) {
+    .BrightNav ul{
+        background-color:rgba(202,198,198,0.5);
+    }
+}

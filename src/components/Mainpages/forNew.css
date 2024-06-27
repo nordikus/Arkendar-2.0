@@ -1,0 +1,33 @@
+#forNewPage {
+    background: url('ForNew.jpg') no-repeat center;
+    background-size: 100% 100%;
+}
+
+
+.row-container {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row-container>div{
+    margin-left:10px;
+    margin-right:10px;
+    width:20%
+}
+
+#cubes{
+    width:30%
+}
+
+@media screen and (max-width: 1024px) {
+    .row-container > div,#cubes {
+        margin-top:80px;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
