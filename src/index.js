@@ -7,7 +7,7 @@ import { Provider } from 'react-redux'
 import store from './redux/store'
 import { setArt } from './redux/GimliArtSlice'
 
-await fetch('/GimliArt.json')
+await fetch(process.env.PUBLIC_URL+'/GimliArt.json')
     .then(response => response.json())
     .then(data => {
         store.dispatch(setArt(data))

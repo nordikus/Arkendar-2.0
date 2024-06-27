@@ -38,7 +38,7 @@ export const GimliShop = () => {
             <div className="products-container">
                 {filteredProducts.map((item, index) => (
                     <div key={index} className={classNames(MStyles.justBrightContainer, "product")}>
-                        <img src={item.image} alt={item.name} width="230px" height="230px"/>
+                        <img src={process.env.PUBLIC_URL+item.image} alt={item.name} width="230px" height="230px"/>
                         <h2>{item.name}</h2>
                         <span className="cost">{item.cost} золотых</span>
                         <p>{item.description}</p>
