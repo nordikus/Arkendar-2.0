@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Arkendar-2.0/static/css/main.204f9cf1.css",
-    "main.js": "/Arkendar-2.0/static/js/main.1d513b9c.js",
+    "main.js": "/Arkendar-2.0/static/js/main.028c252b.js",
     "static/media/skills.gif": "/Arkendar-2.0/static/media/skills.b218c166cb2e3fb7fecd.gif",
     "static/media/abilities.gif": "/Arkendar-2.0/static/media/abilities.07275aaf423730f75b04.gif",
     "static/media/characteristics.gif": "/Arkendar-2.0/static/media/characteristics.d2e6bab836b741767dfa.gif",
@@ -41,10 +41,10 @@
     "index.html": "/Arkendar-2.0/index.html",
     "static/media/news.xml": "/Arkendar-2.0/static/media/news.b353e5f642642644ce32.xml",
     "main.204f9cf1.css.map": "/Arkendar-2.0/static/css/main.204f9cf1.css.map",
-    "main.1d513b9c.js.map": "/Arkendar-2.0/static/js/main.1d513b9c.js.map"
+    "main.028c252b.js.map": "/Arkendar-2.0/static/js/main.028c252b.js.map"
   },
   "entrypoints": [
     "static/css/main.204f9cf1.css",
-    "static/js/main.1d513b9c.js"
+    "static/js/main.028c252b.js"
   ]
 }
