@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Arkendar-2.0/static/css/main.e1adde28.css",
-    "main.js": "/Arkendar-2.0/static/js/main.dba29eb9.js",
+    "main.css": "/Arkendar-2.0/static/css/main.4effe64f.css",
+    "main.js": "/Arkendar-2.0/static/js/main.62cb34e4.js",
     "static/media/stealth.gif": "/Arkendar-2.0/static/media/stealth.934a212bb4bd5081d66f.gif",
     "static/media/skills.gif": "/Arkendar-2.0/static/media/skills.b218c166cb2e3fb7fecd.gif",
     "static/media/abilities.gif": "/Arkendar-2.0/static/media/abilities.07275aaf423730f75b04.gif",
@@ -52,11 +52,11 @@
     "static/media/orangeback.png": "/Arkendar-2.0/static/media/orangeback.5069f53065bfef618c8f.png",
     "index.html": "/Arkendar-2.0/index.html",
     "static/media/news.xml": "/Arkendar-2.0/static/media/news.b353e5f642642644ce32.xml",
-    "main.e1adde28.css.map": "/Arkendar-2.0/static/css/main.e1adde28.css.map",
-    "main.dba29eb9.js.map": "/Arkendar-2.0/static/js/main.dba29eb9.js.map"
+    "main.4effe64f.css.map": "/Arkendar-2.0/static/css/main.4effe64f.css.map",
+    "main.62cb34e4.js.map": "/Arkendar-2.0/static/js/main.62cb34e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1adde28.css",
-    "static/js/main.dba29eb9.js"
+    "static/css/main.4effe64f.css",
+    "static/js/main.62cb34e4.js"
   ]
 }
