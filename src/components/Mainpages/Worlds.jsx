@@ -13,7 +13,7 @@ export const Worlds = () => {
                 <div className={classNames(MStyles.titleContainer,MStyles.purple)}>Светлый мир</div>
             </div>
             <div className="worldContainer">
-            <div className="circle" id='dark'></div>
+            <div className="circle" id='dark' onClick={()=> navigate('DarkMain/DarkHome')}></div>
                 <div className={classNames(MStyles.titleContainer,MStyles.purple)}>Темный мир</div>
                 </div>
             <div className="worldContainer">

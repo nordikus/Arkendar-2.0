@@ -7,7 +7,7 @@
 }
 
 .RuleContainer {
-    width: calc(50% - 40px);
+    width: calc(25% - 40px);
     height: 400px;
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    width: 50%;
+    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -70,9 +70,31 @@
     background-image: url('abilities.gif');
 }
 
+#stealth{
+    background-image: url('stealthstatic.jpg');
+}
+#stealth:hover{
+    background-image: url('stealth.gif');
+}
+
+#magic{
+    background-image: url('magicstatic.jpg');
+}
+
+#magic:hover{
+    background-image: url('magic.gif');
+}
+
+#shamanism{
+    background-image: url('shamanismStatic.jpg');
+}
+
+#shamanism:hover{
+    background-image: url('shamanism.gif');
+}
+
 #rulesPage {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('rules-banner.jpg') no-repeat center;
-    background-size: 100% 100%;
 }
 
 @media (max-width: 768px) {

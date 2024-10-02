@@ -11,6 +11,7 @@ $color: #fff;
   min-height: 100vh;
   min-width:100%;
   margin: 0;
+  background-size: cover !important;
 }
 
 .titleContainer {
@@ -138,22 +139,9 @@ $color: #fff;
 }
 
 
-
-@media (max-width: 768px) {
-
-  .main-container {
-    width: 100%;
-    padding-top: 20px;
-    margin-bottom: 50px;
-  }
-
-  .title-container {
-    height:2px;
-    margin-bottom:20px;
-  }
-
-  .text-container {
-    margin-top:0;
+@media (max-width: 769px){
+  .mainContainer {
+    width:100%;
   }
   .ImageTextContainerBright {
     flex-direction:column;
@@ -168,18 +156,24 @@ $color: #fff;
 
 @media (min-width: 769px) and (max-width: 1024px) {
 
-  .main-container {
-    width: 100%;
-    padding-top: 30px;
-    margin-bottom: 30px;
+  .mainContainer {
+    padding-top: 20px;
+    margin-bottom: 50px;
   }
 
-  .title-container {
+  .titleContainer {
     height:2px;
     margin-bottom:20px;
   }
 
-  .text-container {
+  .textContainer {
     margin-top:0;
+  }
+  .ImageTextContainerBright {
+    flex-direction:column;
+  }
+  .ImageTextContainerBright img {
+    min-width: 100px;
+    min-height: 100px;
   }
 }

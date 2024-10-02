@@ -1,0 +1,38 @@
+$box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+$border: 2px solid white;
+$background-color: rgba(0, 0, 0, 0.8);
+$color: #fff;
+
+.mainContainer {
+  position: relative;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 25px;
+}
+
+.textContainer {
+  position: relative;
+  background-color: $background-color;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  color: $color;
+  z-index: 1;
+  border: $border;
+  text-align:center;
+  padding: 25px;
+p{
+  text-align:justify;
+}
+  li{
+    text-align:justify;
+  }
+}
+
+.BackButton{
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: white;
+  font-size: 40px;
+}

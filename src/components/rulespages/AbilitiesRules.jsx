@@ -1,10 +1,15 @@
 import {useNavigate} from "react-router-dom";
-
+import MStyles from "../../MainStyles.module.scss";
+import RulesStyles from "./RulesStyles.module.scss";
+import "./abilities.css"
 export function AbilitiesRules() {
     const navigate= useNavigate();
     return (
-                        <div>
-                            <button onClick={()=>navigate(-1)}>Назад</button>
+                        <div id="AbilitiesRules">
+                            <div className={MStyles.homeMain}>
+                                <div className={RulesStyles.mainContainer}>
+                                    <button className={RulesStyles.BackButton} onClick={() => navigate(-1)}>&lt;</button>
+                                    <div className={RulesStyles.textContainer}>
                             <p><b>Способности</b>: Каждый из нас обладает определенной особенностью в использовании
                                 своих навыков, будь то особый рецепт, удар или просто хорошее зрение. Это и есть
                                 способности.</p>
@@ -27,17 +32,18 @@ export function AbilitiesRules() {
                                 <li><b>Название</b>: Здесь все понятно.</li>
                                 <li><b>Описание</b>: Что делает способность, эффекты, урон и т.д.</li>
                                 <li><b>Стоимость</b>: Сколько единиц определенного параметра (например, хп,
-                                    выносливости, маны или что-то еще) нужно потратить на использование. Если не
+                                    выносливости, маны или чего-то еще) нужно потратить на использование. Если персонажу их не
                                     хватает, способность просто не сработает.
                                 </li>
-                                <li><b>Длительность</b>: Если способность, например, усиливает персонажа, то она может
-                                    давать эффекты несколько ходов подряд.
+                                <li><b>Длительность</b>: Сколько длятся эффекты способности
                                 </li>
-                                <li><b>КД (Кулдаун)</b>: Сколько времени должно пройти, чтобы использовать способность
+                                <li><b>КД (Кулдаун, перезарядка)</b>: Сколько времени должно пройти, чтобы использовать способность
                                     повторно.
                                 </li>
                             </ul>
-
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
     );

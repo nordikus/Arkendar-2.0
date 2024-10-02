@@ -1,0 +1,19 @@
+.DarkNav{
+    background-color:rgba(202,198,198,0.5);
+}
+
+
+
+.DarkNav ul li a:not(.active):hover {
+    background:#ECEDE5;
+}
+
+.DarkNav .active{
+    background-color:#E7EBD1;
+}
+
+@media (max-width: 768px) {
+    .DarkNav ul{
+        background-color:rgba(202,198,198,0.5);
+    }
+}
