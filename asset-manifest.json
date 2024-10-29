@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Arkendar-2.0/static/css/main.4effe64f.css",
-    "main.js": "/Arkendar-2.0/static/js/main.62cb34e4.js",
+    "main.css": "/Arkendar-2.0/static/css/main.0110fe22.css",
+    "main.js": "/Arkendar-2.0/static/js/main.d4862ec6.js",
     "static/media/stealth.gif": "/Arkendar-2.0/static/media/stealth.934a212bb4bd5081d66f.gif",
+    "static/media/cybernetics.gif": "/Arkendar-2.0/static/media/cybernetics.57a17d40121c7f852d38.gif",
     "static/media/skills.gif": "/Arkendar-2.0/static/media/skills.b218c166cb2e3fb7fecd.gif",
     "static/media/abilities.gif": "/Arkendar-2.0/static/media/abilities.07275aaf423730f75b04.gif",
     "static/media/magic.gif": "/Arkendar-2.0/static/media/magic.9969a2ec867e5c320786.gif",
@@ -16,12 +17,17 @@
     "static/media/hero1.png": "/Arkendar-2.0/static/media/hero1.1de46042b8c50b4e8008.png",
     "static/media/BrightHome-banner.png": "/Arkendar-2.0/static/media/BrightHome-banner.e0628caf57443aabe53e.png",
     "static/media/profile-banner.png": "/Arkendar-2.0/static/media/profile-banner.ab20b94c79ad04c6a052.png",
+    "static/media/worlds-banner.jpg": "/Arkendar-2.0/static/media/worlds-banner.591f81dfea91ef02d321.jpg",
     "static/media/MagicRulesBack.jpg": "/Arkendar-2.0/static/media/MagicRulesBack.346de3eb244f4b5521ac.jpg",
+    "static/media/SpaceHome-banner.jpg": "/Arkendar-2.0/static/media/SpaceHome-banner.9f7cafb049a4d736bfd0.jpg",
+    "static/media/SpaceLore-banner.jpg": "/Arkendar-2.0/static/media/SpaceLore-banner.add8b95baed197fd5589.jpg",
     "static/media/SkillsRulesBack.jpg": "/Arkendar-2.0/static/media/SkillsRulesBack.1c6190a30d9ec5bd370f.jpg",
     "static/media/CharacteristicsRulesBack.jpg": "/Arkendar-2.0/static/media/CharacteristicsRulesBack.1f57af610241b8610ba2.jpg",
     "static/media/authentification-banner.png": "/Arkendar-2.0/static/media/authentification-banner.1464722b77f096e4fcb1.png",
     "static/media/dark.png": "/Arkendar-2.0/static/media/dark.163b5a63fef0fb40373f.png",
     "static/media/rules-banner.jpg": "/Arkendar-2.0/static/media/rules-banner.af634590de132edd7542.jpg",
+    "static/media/DarkHome-banner.png": "/Arkendar-2.0/static/media/DarkHome-banner.c0e2f4cfdf4dc5d10808.png",
+    "static/media/DarkLore-banner.png": "/Arkendar-2.0/static/media/DarkLore-banner.3b4ccdbb18d76c4c3e12.png",
     "static/media/spaceopera.png": "/Arkendar-2.0/static/media/spaceopera.756e4220a73c9b78e6c7.png",
     "static/media/bright.png": "/Arkendar-2.0/static/media/bright.5ac97b5b8f695a20df5f.png",
     "static/media/GimliShop-banner.jpeg": "/Arkendar-2.0/static/media/GimliShop-banner.dd5c17861b7189a2ec79.jpeg",
@@ -29,16 +35,19 @@
     "static/media/home-banner.jpg": "/Arkendar-2.0/static/media/home-banner.5006744a21a3ea10c60f.jpg",
     "static/media/ForNew.jpg": "/Arkendar-2.0/static/media/ForNew.c9270ed4448d43aa8c0c.jpg",
     "static/media/stealthstatic.jpg": "/Arkendar-2.0/static/media/stealthstatic.708553bcb1f6cdff99f2.jpg",
-    "static/media/worlds-banner.jpg": "/Arkendar-2.0/static/media/worlds-banner.25403659c20e63445529.jpg",
     "static/media/FightRulesBack.jpeg": "/Arkendar-2.0/static/media/FightRulesBack.69f63128d167c3c82114.jpeg",
     "static/media/Montserrat-Regular.ttf": "/Arkendar-2.0/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/AbilitiesRulesBack.jpeg": "/Arkendar-2.0/static/media/AbilitiesRulesBack.300c09b81984f834453c.jpeg",
+    "static/media/CyberenticsRulesBack.jpg": "/Arkendar-2.0/static/media/CyberenticsRulesBack.1b764c9a5287eff511f7.jpg",
+    "static/media/cyberneticstatic.jpg": "/Arkendar-2.0/static/media/cyberneticstatic.6c2b1807156c2c0347fa.jpg",
     "static/media/fightstatic.jpg": "/Arkendar-2.0/static/media/fightstatic.9bfe4b48cfae9fd62a85.jpg",
+    "static/media/SpaceHomeIcon.png": "/Arkendar-2.0/static/media/SpaceHomeIcon.35047e6229c7897b72f7.png",
     "static/media/shamanismStatic.jpg": "/Arkendar-2.0/static/media/shamanismStatic.3cc291e659d8af55c40b.jpg",
     "static/media/skillsStatic.jpg": "/Arkendar-2.0/static/media/skillsStatic.c404382305689d8a2a86.jpg",
     "static/media/charCreate.jpg": "/Arkendar-2.0/static/media/charCreate.ffa92447e031b72793f4.jpg",
     "static/media/magicstatic.jpg": "/Arkendar-2.0/static/media/magicstatic.db54196bb50563387f2b.jpg",
     "static/media/abilitiesstatic.jpg": "/Arkendar-2.0/static/media/abilitiesstatic.c1bf9ed817c4a382f906.jpg",
+    "static/media/DarkHomeIcon.png": "/Arkendar-2.0/static/media/DarkHomeIcon.973423f3c7aa5996e5d6.png",
     "static/media/Dice.png": "/Arkendar-2.0/static/media/Dice.de7c1e677d566b4bf6de.png",
     "static/media/BrightHomeIcon.png": "/Arkendar-2.0/static/media/BrightHomeIcon.ad9003146879cf433637.png",
     "static/media/characteristics.jpg": "/Arkendar-2.0/static/media/characteristics.f24dbccca8e820268f07.jpg",
@@ -52,11 +61,11 @@
     "static/media/orangeback.png": "/Arkendar-2.0/static/media/orangeback.5069f53065bfef618c8f.png",
     "index.html": "/Arkendar-2.0/index.html",
     "static/media/news.xml": "/Arkendar-2.0/static/media/news.b353e5f642642644ce32.xml",
-    "main.4effe64f.css.map": "/Arkendar-2.0/static/css/main.4effe64f.css.map",
-    "main.62cb34e4.js.map": "/Arkendar-2.0/static/js/main.62cb34e4.js.map"
+    "main.0110fe22.css.map": "/Arkendar-2.0/static/css/main.0110fe22.css.map",
+    "main.d4862ec6.js.map": "/Arkendar-2.0/static/js/main.d4862ec6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4effe64f.css",
-    "static/js/main.62cb34e4.js"
+    "static/css/main.0110fe22.css",
+    "static/js/main.d4862ec6.js"
   ]
 }
