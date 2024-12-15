@@ -13,7 +13,7 @@ export const Profile = () => {
         name: "",
         description: "",
         weight: "",
-        category: "Оружие",
+        category: "misc",
         physicalDamage: "",
         magicDamage: "",
         physicalArmor: "",
@@ -439,23 +439,25 @@ export const Profile = () => {
                                                             <p>Описание: {item.description || '-'}</p>
                                                             <p>Вес: {item.weight}</p>
 
-                                                            {category === "Оружие" ? (<>
+                                                            {category === "weapon" ? (<>
                                                                     <p>Физический урон: {item.physicalDamage || '-'}</p>
                                                                     <p>Магический урон: {item.magicDamage || '-'}</p>
-                                                                </>) : category === "Броня" ? (<>
+                                                                <button
+                                                                    onClick={() => toggleEquipItem(index, category, itemIndex)}>
+                                                                    {item.equipped ? "Снять" : "Экипировать"}
+                                                                </button>
+                                                                </>) : category === "armor" ? (<>
                                                                     <p>Физическая броня: {item.physicalArmor || '-'}</p>
                                                                     <p>Магическая броня: {item.magicArmor || '-'}</p>
+                                                                <button
+                                                                    onClick={() => toggleEquipItem(index, category, itemIndex)}>
+                                                                    {item.equipped ? "Снять" : "Экипировать"}
+                                                                </button>
                                                                 </>) : (<>
-                                                                    <p>Физический урон: -</p>
-                                                                    <p>Магический урон: -</p>
-                                                                    <p>Физическая броня: -</p>
-                                                                    <p>Магическая броня: -</p>
+
                                                                 </>)}
 
-                                                            <button
-                                                                onClick={() => toggleEquipItem(index, category, itemIndex)}>
-                                                                {item.equipped ? "Снять" : "Экипировать"}
-                                                            </button>
+
                                                         </div>))) : (<p>Нет предметов в категории</p>)}
                                             </div>))}
                                         <p>Текущий вес инвентаря: {calculateTotalWeight(char)} / Переносимый
