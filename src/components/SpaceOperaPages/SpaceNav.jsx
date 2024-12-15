@@ -1,8 +1,8 @@
 import {useEffect, useState} from "react";
 import { NavLink} from "react-router-dom";
-import "./DarkNav.css"
+import "./SpaceNav.css"
 
-export const DarkNav = () => {
+export const SpaceNav = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
     const [isOpen, setIsOpen] = useState(false);
 
@@ -12,23 +12,23 @@ export const DarkNav = () => {
         });
     }, []);
 
-    return (<nav className="DarkNav">
+    return (<nav className="SpaceNav">
         {isMobile ? (<div>
             <button className="menu-button" onClick={() => setIsOpen(!isOpen)}>☰</button>
         </div>) : (<ul>
             <li>
-                <NavLink to="DarkLore">Лор</NavLink>
+                <NavLink to="SpaceLore">Лор</NavLink>
             </li>
             <li>
-                <NavLink to="DarkHome">Общая информация</NavLink>
+                <NavLink to="SpaceHome">Общая информация</NavLink>
             </li>
         </ul>)}
         {isMobile && isOpen && (<ul className={isOpen ? 'open' : ''}>
             <li>
-                <NavLink to="DarkLore">Лор</NavLink>
+                <NavLink to="SpaceLore">Лор</NavLink>
             </li>
             <li>
-                <NavLink to="DarkHome">Общая информация</NavLink>
+                <NavLink to="SpaceHome">Общая информация</NavLink>
             </li>
         </ul>)}
     </nav>);

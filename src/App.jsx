@@ -19,6 +19,13 @@ import {ShamanismRules} from "./components/rulespages/ShamanismRules";
 import {useEffect, useState} from "react";
 import LoadingGif from "./Loading.gif";
 import {DarkMain} from "./components/DarkWorldPages/DarkMain";
+import Footer from "./components/Footer";
+import {CyberneticsRules} from "./components/rulespages/CyberneticsRules";
+import {DarkHome} from "./components/DarkWorldPages/DarkHome";
+import {DarkLore} from "./components/DarkWorldPages/DarkLore";
+import {SpaceMain} from "./components/SpaceOperaPages/SpaceMain";
+import {SpaceHome} from "./components/SpaceOperaPages/SpaceHome";
+import {SpaceLore} from "./components/SpaceOperaPages/SpaceLore";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -51,12 +58,19 @@ function App() {
                         <Route path="GimliShop" element={<GimliShop/>}/>
                     </Route>
                     <Route path="/Worlds/DarkMain" element={<DarkMain/>}>
+                        <Route path="DarkHome" element={<DarkHome/>}/>
+                        <Route path="DarkLore" element={<DarkLore/>}/>
+                    </Route>
+                    <Route path="/Worlds/SpaceMain" element={<SpaceMain/>}>
+                        <Route path="SpaceHome" element={<SpaceHome/>}/>
+                        <Route path="SpaceLore" element={<SpaceLore/>}/>
                     </Route>
                     <Route path="/" element={<Home/>}/>
                     <Route path="/Rules" element={<Rules/>}/>
                     <Route path="/Rules/AbilitiesRules" element={<AbilitiesRules/>}/>
                     <Route path="/Rules/CharacteristicsRules" element={<CharacteristicsRules/>}/>
                     <Route path="/Rules/FightRules" element={<FightRules/>}/>
+                    <Route path="/Rules/CyberneticsRules" element={<CyberneticsRules/>}/>
                     <Route path="/Rules/SkillsRules" element={<SkillsRules/>}/>
                     <Route path="/Rules/StealthRules" element={<StealthRules/>}/>
                     <Route path="/Rules/MagicRules" element={<MagicRules/>}/>
@@ -67,9 +81,7 @@ function App() {
                     <Route path="/users/:username" element={<Profile/>}/>
                 </Routes>
             </main>
-            <footer>
-                <div><p>Главный Разработчик и гм ТБ</p></div>
-            </footer>
+            <Footer/>
         </div>);
     }
 }

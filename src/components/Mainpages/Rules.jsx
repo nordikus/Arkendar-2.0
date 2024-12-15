@@ -28,6 +28,9 @@ const navigate= useNavigate();
                 <div className="RuleContainer" id='shamanism' onClick={()=>navigate('ShamanismRules')}>
                     <span>духи и шаманизм</span>
                 </div>
+                <div className="RuleContainer" id='cybernetic' onClick={()=>navigate('CyberneticsRules')}>
+                    <span>Роботы и кибернетика</span>
+                </div>
             </div>
         </div>
     );

@@ -1,3 +1,56 @@
 #Profile{
-    background: url('profile-banner.png') no-repeat center;
+    background: url('profile-banner.png') no-repeat center fixed;
+}
+
+.characterDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.characterStats,
+.characterParameters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.statItem,
+.paramItem {
+    margin-right: 20px;
+}
+
+.statInputs,
+.paramInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statInputs p,
+.paramInputs p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) { /* Adjust for tablets and phones */
+    .characterDetails {
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    .characterStats,
+    .characterParameters {
+        flex-direction: column; /* Stack items vertically */
+        margin-bottom: 15px; /* Add space between stats and parameters */
+    }
+
+    .statItem,
+    .paramItem {
+        margin-right: 0; /* Remove right margin on smaller screens */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    .statInputs,
+    .paramInputs {
+        align-items: flex-start; /* Align items to the start */
+    }
 }

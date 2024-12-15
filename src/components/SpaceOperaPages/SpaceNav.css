@@ -1,19 +1,19 @@
-.DarkNav{
-    background-color:rgba(222,222,222,0.5);
+.SpaceNav{
+    background-color:rgba(280,280,280,0.8);
 }
 
 
 
-.DarkNav ul li a:not(.active):hover {
+.SpaceNav ul li a:not(.active):hover {
     background:#ECEDE5;
 }
 
-.DarkNav .active{
+.SpaceNav .active{
     background-color:#E7EBD1;
 }
 
 @media (max-width: 768px) {
-    .DarkNav ul{
+    .SpaceNav ul{
         background-color:rgba(202,198,198,0.5);
     }
 }

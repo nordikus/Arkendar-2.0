@@ -1,8 +1,8 @@
 import {Outlet, useLocation} from "react-router-dom";
 import {useEffect, useState} from "react";
-import {DarkNav} from "./DarkNav";
-import "./DarkStyles.css"
-export function DarkMain() {
+import "./SpaceStyles.css"
+import {SpaceNav} from "./SpaceNav";
+export function SpaceMain() {
     const location = useLocation();
     const [PathName, setPathName] = useState(null);
 
@@ -16,7 +16,7 @@ export function DarkMain() {
     return (
         <div id={PathName} style={{width: "100%"}}>
             <div>
-                <DarkNav/>
+                <SpaceNav/>
             </div>
             <div>
                 <Outlet></Outlet>

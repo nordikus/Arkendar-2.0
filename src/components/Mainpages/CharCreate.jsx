@@ -59,11 +59,12 @@ export function CharCreate() {
     return (
         <div className="CharCreateContainer" id="charCreatePage">
             <div className={MStyles.mainContainer}>
-                <div className={classNames(MStyles.titleContainer,MStyles.orange)}>
+                <div className={classNames(MStyles.titleContainer, MStyles.orange)}>
                     <h4><b>Калькулятор характеристик</b></h4>
                 </div>
+            <div className={MStyles.textContainer}>Нажимая на кнопки ниже вы можете менять характеристики и
+                автоматически получать то на, что они влияют
             </div>
-            <div>Нажимая на кнопки ниже вы можете менять характеристики и автоматически получать то на, что они влияют
             </div>
             <div className='slidstatcontain'>
                 <div className='slider'>
@@ -171,9 +172,12 @@ export function CharCreate() {
                         <div><b> Физ. урон: <span style={{color: 'orange'}}>{stats.strength * 5 + 5}</span></b></div>
                         <div><b>Маг. урон: <span style={{color: 'orange'}}>{stats.intelligence * 5}</span></b></div>
                         <div><b>ХП: <span style={{color: 'orange'}}>{stats.constitution * 50 + 50}</span></b></div>
-                        <div><b>Выносливость: <span style={{color: 'orange'}}>{stats.constitution * 50 + 100}</span></b></div>
+                        <div><b>Выносливость: <span style={{color: 'orange'}}>{stats.constitution * 50 + 100}</span></b>
+                        </div>
                         <div><b>Мана: <span style={{color: 'orange'}}>{stats.wisdom * 10}</span></b></div>
-                        <div><b>Переносимый вес: <span style={{color: 'orange'}}>{stats.strength * 5 + stats.constitution * 0.5 + 2}</span></b></div>
+                        <div><b>Переносимый вес: <span
+                            style={{color: 'orange'}}>{stats.strength * 5 + stats.constitution * 0.5 + 2}</span></b>
+                        </div>
                     </div>
                 </div>
             </div>
