@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Arkendar-2.0/static/css/main.8c9eb587.css",
-    "main.js": "/Arkendar-2.0/static/js/main.2a1d46a7.js",
+    "main.js": "/Arkendar-2.0/static/js/main.5fca2458.js",
     "static/media/stealth.gif": "/Arkendar-2.0/static/media/stealth.934a212bb4bd5081d66f.gif",
     "static/media/cybernetics.gif": "/Arkendar-2.0/static/media/cybernetics.57a17d40121c7f852d38.gif",
     "static/media/skills.gif": "/Arkendar-2.0/static/media/skills.b218c166cb2e3fb7fecd.gif",
@@ -62,10 +62,10 @@
     "index.html": "/Arkendar-2.0/index.html",
     "static/media/news.xml": "/Arkendar-2.0/static/media/news.b353e5f642642644ce32.xml",
     "main.8c9eb587.css.map": "/Arkendar-2.0/static/css/main.8c9eb587.css.map",
-    "main.2a1d46a7.js.map": "/Arkendar-2.0/static/js/main.2a1d46a7.js.map"
+    "main.5fca2458.js.map": "/Arkendar-2.0/static/js/main.5fca2458.js.map"
   },
   "entrypoints": [
     "static/css/main.8c9eb587.css",
-    "static/js/main.2a1d46a7.js"
+    "static/js/main.5fca2458.js"
   ]
 }
