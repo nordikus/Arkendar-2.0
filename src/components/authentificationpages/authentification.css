@@ -6,16 +6,16 @@
 
 
 form {
-    border: 2px solid #ccc; /* Цвет и ширина границы */
-    padding: 20px; /* Отступ внутри границы */
-    margin: 20px auto; /* Выравнивание по центру */
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
     background-color:rgba(0, 0, 0, 0.8);
 }
 
 input {
-    border: 1px solid #ccc; /* Цвет и ширина рамки */
-    padding: 10px; /* Отступ внутри рамки */
-    border-radius: 5px; /* Скругление углов */
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 label{

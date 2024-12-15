@@ -32,25 +32,25 @@
     margin: 5px 0;
 }
 
-@media (max-width: 768px) { /* Adjust for tablets and phones */
+@media (max-width: 768px) {
     .characterDetails {
-        flex-direction: column; /* Stack sections vertically */
+        flex-direction: column;
     }
 
     .characterStats,
     .characterParameters {
-        flex-direction: column; /* Stack items vertically */
-        margin-bottom: 15px; /* Add space between stats and parameters */
+        flex-direction: column;
+        margin-bottom: 15px;
     }
 
     .statItem,
     .paramItem {
-        margin-right: 0; /* Remove right margin on smaller screens */
-        margin-bottom: 10px; /* Add bottom margin for spacing */
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     .statInputs,
     .paramInputs {
-        align-items: flex-start; /* Align items to the start */
+        align-items: flex-start;
     }
 }
