@@ -31,7 +31,6 @@ function App() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        // Schedule the change to false after 2 seconds
         const timeoutId = setTimeout(() => {
             setLoading(false);
         }, 2000);
